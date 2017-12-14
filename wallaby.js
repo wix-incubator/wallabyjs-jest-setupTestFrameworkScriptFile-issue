@@ -18,7 +18,7 @@ module.exports = () => {
 
     setup: function(w) {
       w.testFramework.configure({
-        "setupTestFrameworkScriptFile": "./jest-setupFramework.js"        
+        "setupTestFrameworkScriptFile": w.projectCacheDir + "/jest-setupFramework.js"        
       });
     }
   };
